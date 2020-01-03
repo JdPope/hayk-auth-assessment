@@ -4,9 +4,10 @@ This app displays a list of markers and allows users to select their favorite ma
 
 ## Getting Started
 
-1. Serve the API with `rails s`
-2. Verify that the client is pointing to the correct port in `favorite-marker/app.js`
-3. Serve the app
+1. Installs Rails dependencies with `bundle install`
+2. Serve the API with `rails s`
+3. Verify that the client is pointing to the correct port in `favorite-marker/app.js`
+4. Serve the app
 
 ## Instructions
 
