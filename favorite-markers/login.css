@@ -41,3 +41,28 @@ nav li {
 
 /* Page styles */
 
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+form {
+    max-width: 200px;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+[type=submit] {
+    border: none;
+    background-color: hsl(240, 50%, 50%);
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem;
+}
+.error-message {
+    color: hsl(0, 50%, 50%);
+}

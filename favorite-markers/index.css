@@ -55,7 +55,7 @@ nav li {
     cursor: pointer;
 }
 .marker-list li:hover, .marker-list li.active {
-    box-shadow: 1px 0 4px hsl(110, 50%, 80%);
+    box-shadow: 1px 0 32px hsl(110, 50%, 80%);
 }
 .marker-list li > div {
     display: flex;

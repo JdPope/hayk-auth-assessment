@@ -3,7 +3,7 @@
     <head>
         <title>Favorite Markers</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/index.css">
+        <link rel="stylesheet" href="/login.css">
     </head>
     <body>
         <header>
@@ -18,10 +18,15 @@
             </nav>
         </header>
         <main>
-            <h2>Select Your Favorite Markers</h2>
-            <ul class="marker-list"></ul>
-            <p class="error-message"></p>
+            <h2>Login</h2>
+            <form class="login">
+                <input type="text" required placeholder="username" name="username" />
+                <input type="password" required placeholder="password" name="password" />
+                <input type="submit" value="Login" />
+                <p class="error-message"></p>
+            </form>
         </main>
-        <script src="/index.js"></script>
+        <script src="/login.js"></script>
     </body>
 </html>
+
