@@ -14,4 +14,8 @@ Complete all the steps necessary to:
 
 * Allow users to sign up and create accounts. They'll need at least a username and a password.
 * Allow users to login to their accounts.
-* Allow users to save their favorite markers to the API (you will need to create a new model for this)
+* Toggle the login / logout links in the header
+* Allow users to save their favorite markers to the API (you will need to create a new model and modify some existing code to make this work)
+* Allow users to logout
+
+You may need to modify existing code to complete these.
